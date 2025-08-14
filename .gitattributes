@@ -1,0 +1,12 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files as text
+*.py text
+
+# Treat images and model files as binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.h5 binary
+*.p binary
